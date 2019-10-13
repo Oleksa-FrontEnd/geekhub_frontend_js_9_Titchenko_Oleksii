@@ -50,7 +50,17 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="homework-1-2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\GeekHub-9_Season\Lesson 1 (html and form)\homework-1-2" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -97,12 +107,12 @@
       <updated>1570624867017</updated>
       <workItem from="1570624868227" duration="3901000" />
       <workItem from="1570703804635" duration="93000" />
-      <workItem from="1570733376971" duration="32765000" />
+      <workItem from="1570733376971" duration="32767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36759000" />
+    <option name="totallyTimeSpent" value="36761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
