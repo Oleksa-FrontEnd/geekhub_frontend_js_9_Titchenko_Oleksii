@@ -1,0 +1,42 @@
+body {
+  font-family: "Times New Roman", Arial;
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 40px 20px 30px;
+  max-width: 850px; }
+
+h1, .author, .corporation {
+  text-align: center; }
+
+h1 {
+  font-size: 36px; }
+
+h3 {
+  font-size: 28px; }
+
+.corporation {
+  padding: 10px; }
+
+.title-text {
+  font-size: 28px;
+  font-weight: 700; }
+
+.list-title {
+  text-align: left; }
+
+.cofr {
+  float: left;
+  margin: 7px 7px 7px 0; }
+
+.centralized {
+  text-align: right; }
+
+.however {
+  text-align: left; }
+
+.foto-mouse {
+  display: block;
+  margin: auto; }
+
+.list-star, .list-over {
+  padding-top: 35px; }
