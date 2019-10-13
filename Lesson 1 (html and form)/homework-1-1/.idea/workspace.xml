@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9331deeb-8c34-4d24-ba57-ed8bdca2b863" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$me_work_2.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework-1-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework-1-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework-1-2/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../homework-1-2/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework-1-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../homework-1-2/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,16 +31,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../homework-1-2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="120">
+              <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../homework-1-2/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -76,8 +74,8 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/../homework-1-2/index.html" />
         <option value="$PROJECT_DIR$/../homework-1-2/css/main.css" />
+        <option value="$PROJECT_DIR$/../homework-1-2/index.html" />
       </list>
     </option>
   </component>
@@ -135,12 +133,12 @@
       <option name="presentableId" value="Default" />
       <updated>1570624867017</updated>
       <workItem from="1570624868227" duration="3901000" />
-      <workItem from="1570966645777" duration="3980000" />
+      <workItem from="1570966645777" duration="7389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7881000" />
+    <option name="totallyTimeSpent" value="11290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
@@ -241,17 +239,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../homework-1-2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../homework-1-2/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../homework-1-2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
         </state>
       </provider>
     </entry>
