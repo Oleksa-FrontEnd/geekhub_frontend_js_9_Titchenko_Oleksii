@@ -1,0 +1,60 @@
+.welcome-wrap{
+  width: 100%;
+  background-color: #3695ff;
+  background-image: linear-gradient(51deg, #3695ff 0%, #3564fc 100%);
+  text-align: center;
+}
+h1{
+  margin: 0 auto;
+  padding-bottom: 42px;
+  max-width: 800px;
+  color: #ffffff;
+  font-family: "Lato - Black", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 60px;
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
+  text-align: center;
+  justify-content: center;
+}
+.welcome-text{
+    color: #e4eeff;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    text-align: center;
+    margin: 0 auto;
+}
+.ring{
+  color: #fff;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  background-color: #fff;
+  margin: 50px auto;
+  box-shadow: 0 0 5px 5px #599bfe,
+              0 0 5px 10px #4791fe;
+}
+
+.bars-menu{
+  display: block;
+  justify-content: flex-end;
+  text-align: right;
+}
+.fa-bars{
+  color: #fff;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+.fa-arrow-down{
+  color: #8cc1ff;
+  padding: 35px;
+  height: 50px;
+}
+.button-welcome{
+  margin: 70px;
+}

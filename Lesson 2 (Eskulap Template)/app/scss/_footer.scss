@@ -1,0 +1,27 @@
+footer{
+  margin: auto;
+  display: flex;
+  background-color: #3c98ff;
+}
+.footer-text {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 65px;
+  color: #fff;
+  margin: 0 auto;
+}
+.form-wrap{
+  display: inline-block;
+}
+#footer-hire-me{
+  margin: 65px;
+}
+@media screen and (max-width:840px ){
+  #footer-hire-me{
+    margin: 25px;
+  }
+  .form-wrap{
+    display: block;
+    text-align: center;
+  }
+}
