@@ -1,0 +1,33 @@
+header{
+  max-width: 1170px;
+  padding: 40px;
+  flex-direction: row;
+  justify-content: space-between;
+  /*align-items: center;
+  text-align: center;*/
+  margin: 0 auto;
+  display: flex;
+ }
+
+.nav-element{
+  color: #635c73;
+  padding-right: 45px;
+}
+.header-button{
+  padding: 12px 36px 13px 36px;
+  color: #fff;
+  background-color: #8d81ac;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15px;
+  border: none;
+  border-radius: 27px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo-icon{
+  padding: 5px;
+}

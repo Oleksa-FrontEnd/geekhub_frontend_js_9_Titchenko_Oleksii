@@ -1,0 +1,69 @@
+.hero-wrap{
+  background-color: #c7b39b;
+  background-image: url("../img/hero/bg-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: auto;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+h1{
+  color: #fff;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 20.45px;
+  text-align: center;
+  padding-top: 110px;
+  padding-bottom: 30px;
+}
+.fork-text{
+  color: #8d81ac;
+  font-family: Lato, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 20.45px;
+  padding-top: 40px;
+}
+.fork-info{
+  color: #848e97;
+  font-family: Montserrat,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.45px;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+@media screen and (max-width: 410px){
+  h1{
+    font-size: 50px;
+    padding-top: 50px;
+    line-height: 10.45px;
+    width: 90%;
+  }
+  .fork-text{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+  }
+  .fork-info {
+    line-height: 20.45px;
+  }
+}
+@media screen and (max-width: 320px){
+  h1{
+    font-size: 50px;
+    padding-top: 0;
+    line-height: 5.45px;
+  }
+  .fork-text{
+    padding-top: 20px;
+  }
+  .fork-info {
+    padding-top: 40px;
+  }
+
+}

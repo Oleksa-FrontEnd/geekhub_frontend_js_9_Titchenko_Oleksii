@@ -1,0 +1,193 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1.2; }
+
+ol {
+  padding-left: 1.4em;
+  list-style: decimal; }
+
+ul {
+  padding-left: 1.4em;
+  list-style: square; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: Montserrat, sans-serif; }
+
+a {
+  text-decoration: none; }
+
+header {
+  max-width: 1170px;
+  padding: 40px;
+  flex-direction: row;
+  justify-content: space-between;
+  /*align-items: center;
+  text-align: center;*/
+  margin: 0 auto;
+  display: flex; }
+
+.nav-element {
+  color: #635c73;
+  padding-right: 45px; }
+
+.header-button {
+  padding: 12px 36px 13px 36px;
+  color: #fff;
+  background-color: #8d81ac;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15px;
+  border: none;
+  border-radius: 27px; }
+
+.logo {
+  display: flex;
+  align-items: center; }
+
+.logo-icon {
+  padding: 5px; }
+
+.hero-wrap {
+  background-color: #c7b39b;
+  background-image: url("../img/hero/bg-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: auto;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  text-align: center; }
+
+h1 {
+  color: #fff;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 20.45px;
+  text-align: center;
+  padding-top: 110px;
+  padding-bottom: 30px; }
+
+.fork-text {
+  color: #8d81ac;
+  font-family: Lato, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 20.45px;
+  padding-top: 40px; }
+
+.fork-info {
+  color: #848e97;
+  font-family: Montserrat,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.45px;
+  text-transform: uppercase;
+  padding-top: 20px; }
+
+@media screen and (max-width: 410px) {
+  h1 {
+    font-size: 50px;
+    padding-top: 50px;
+    line-height: 10.45px;
+    width: 90%; }
+  .fork-text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px; }
+  .fork-info {
+    line-height: 20.45px; } }
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 50px;
+    padding-top: 0;
+    line-height: 5.45px; }
+  .fork-text {
+    padding-top: 20px; }
+  .fork-info {
+    padding-top: 40px; } }
+
+.rev-wrap {
+  margin: 0 auto;
+  top: -20px;
+  text-align: center;
+  position: relative; }
+
+.rev-text {
+  color: #848e97;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  padding-top: 20px; }
+
+.rev-title-wrap {
+  padding-top: 65px; }
+
+.rev-title {
+  color: #635c73;
+  font-family: Montserrat, sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 20.45px;
+  text-transform: uppercase; }
+
+.rev-editor-text {
+  opacity: 0.8;
+  color: #323232;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+  max-width: 870px;
+  margin: 0 auto;
+  padding-top: 50px; }
+
+.rev-icon-wrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px; }
+
+.rev-icon-element {
+  border: 1px solid #dddddd;
+  margin: 10px;
+  color: #333333; }
+
+.rev-icon {
+  color: #554b46;
+  border: 1px solid #ddd;
+  padding: 3px;
+  background-color: #f3f3f3; }
