@@ -1,0 +1,32 @@
+.about-section-wrapper{
+  background-image: url('../img/about/bg-about.jpg');
+}
+.about-section-title{
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 20.45px;
+  padding-top: 100px;
+  text-align: center;
+}
+.about-wrap{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 90px;
+  max-width: 1170px;
+  margin: 0 auto;
+
+}
+.about-element{
+  max-width: 320px ;
+  text-align: center;
+  padding-top: 110px;
+}
+.about-element-text{
+  padding: 35px;
+}
+.about-line{
+  display: block;
+  justify-content: center;
+}
