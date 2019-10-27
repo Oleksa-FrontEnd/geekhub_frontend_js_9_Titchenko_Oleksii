@@ -378,3 +378,71 @@ h1 {
 .about-line {
   display: block;
   justify-content: center; }
+
+.fork-pricing-wrapper {
+  background-color: #4f3e52;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center; }
+
+.fork-pricing-wrap_title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 20.45px; }
+
+.fork-pricing-wrap {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 120px;
+  max-width: 1170px;
+  flex-wrap: wrap; }
+
+.fork-pricing-element {
+  width: 22%;
+  background-color: #68566a;
+  margin: 13px; }
+
+.fork-pricing-element_title {
+  background-color: #685b6a;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 20.45px;
+  text-transform: uppercase;
+  padding: 50px; }
+
+.fork-pricing-element_price {
+  background-color: #675669;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 90.28px;
+  text-transform: uppercase; }
+
+.fork-pricing-element_month {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20.45px; }
+
+.fork-pricing-element_text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 30px;
+  padding-bottom: 65px; }
+
+.fork-pricing-element_button {
+  background-color: #7f707f;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20.45px;
+  text-transform: uppercase;
+  border-radius: 27px;
+  border: none;
+  padding: 15px 38px;
+  margin-bottom: 80px; }
