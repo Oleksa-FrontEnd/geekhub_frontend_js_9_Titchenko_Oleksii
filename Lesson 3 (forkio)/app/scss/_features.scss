@@ -7,7 +7,7 @@
 .features-wrap-section1{
   display: flex;
   flex-direction: column;
-  padding: 70px;
+  padding: 70px 70px 0px 70px;
 }
 .features-code{
   color: #8d81ac;
@@ -41,6 +41,12 @@
 .features-wrap-section1_paragraph{
   color: #848e97;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 21px;
+}
+@media screen and (max-width: 940px){
+  .features-wrap {
+    display: flex;
+    flex-direction: column; //не срабатывает запрос
+  }
 }

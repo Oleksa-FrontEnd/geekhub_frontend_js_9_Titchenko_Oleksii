@@ -172,7 +172,7 @@ h1 {
   font-size: 21px;
   font-weight: 400;
   line-height: 32px;
-  max-width: 870px;
+  max-width: 70%;
   margin: 0 auto;
   padding-top: 50px; }
 
@@ -201,7 +201,7 @@ h1 {
 .features-wrap-section1 {
   display: flex;
   flex-direction: column;
-  padding: 70px; }
+  padding: 70px 70px 0px 70px; }
 
 .features-code {
   color: #8d81ac;
@@ -235,5 +235,115 @@ h1 {
 .features-wrap-section1_paragraph {
   color: #848e97;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 21px; }
+
+@media screen and (max-width: 940px) {
+  .features-wrap {
+    display: flex;
+    flex-direction: column; } }
+
+.social-wrap {
+  padding-top: 100px;
+  text-align: center; }
+
+.social-mens {
+  display: flex;
+  justify-content: center; }
+
+.social-foto {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px; }
+
+.social-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+
+.social-info-title {
+  color: #635c73;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  padding-left: 27px;
+  display: flex;
+  flex-direction: column; }
+
+.social-info-status {
+  color: #8d81ac;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-left: 27px; }
+
+.social-text {
+  max-width: 720px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  color: #333333;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; }
+  .social-text .pixelbuddha {
+    color: #8d81ac; }
+
+.social-hours {
+  color: #848e97;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px; }
+
+.social-button-wrap {
+  display: flex;
+  padding-top: 115px;
+  justify-content: center; }
+
+.button-social-github {
+  background-color: #f3f3f3;
+  width: 240px;
+  padding: 16px auto;
+  color: #000000;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  margin: 40px; }
+
+.button-social-twitter {
+  background-color: #26a6d1;
+  width: 240px;
+  padding: 16px auto;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 40px; }
+
+.button-social-facebook {
+  background-color: #3b5998;
+  width: 240px;
+  padding: 16px auto;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 40px; }
+
+.button-social-followers {
+  color: #848e97;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px; }
+
+.fab {
+  float: left;
+  padding-top: 7px;
+  padding-left: 20px; }
+
+@media screen and (max-width: 940px) {
+  .social-button-wrap {
+    display: flex;
+    flex-direction: column; } }
