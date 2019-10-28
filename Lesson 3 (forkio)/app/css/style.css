@@ -415,7 +415,7 @@ h1 {
     opacity: 1; }
 
 .fork-pricing-element_title {
-  background-color: #685b6a;
+  background-color: #392d3d;
   color: #ffffff;
   font-size: 24px;
   font-weight: 400;
@@ -507,6 +507,7 @@ input[type="email"] {
 .links-wrap {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding-top: 80px;
   margin: 0 auto; }
 
@@ -518,10 +519,22 @@ input[type="email"] {
   color: #d3d1da;
   font-size: 28px;
   font-weight: 700;
-  line-height: 32px; }
+  line-height: 32px;
+  padding-bottom: 58px; }
 
 .links-element-strong_text {
   color: #323232;
   font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  padding-bottom: 22px;
+  padding-top: 10px; }
+
+.links-button {
+  color: #8d81ac;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 26px; }
+  line-height: 26px;
+  background-color: #f4f4f4;
+  padding: 12px 7px 8px 24px;
+  margin-top: 36px; }

@@ -1,6 +1,7 @@
 .links-wrap{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding-top: 80px;
   margin: 0 auto;
 }
@@ -13,10 +14,22 @@
   font-size: 28px;
   font-weight: 700;
   line-height: 32px;
+  padding-bottom: 58px ;
 }
 .links-element-strong_text{
   color: #323232;
   font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  padding-bottom: 22px;
+  padding-top: 10px;
+}
+.links-button{
+  color: #8d81ac;
+  font-size: 14px;
   font-weight: 400;
   line-height: 26px;
+  background-color: #f4f4f4;
+  padding: 12px 7px 8px 24px;
+  margin-top: 36px ;
 }
