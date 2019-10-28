@@ -1,0 +1,22 @@
+.links-wrap{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  margin: 0 auto;
+}
+.links-element-wrap{
+  width: 30%;
+  padding: 35px;
+}
+.links-element-title{
+  color: #d3d1da;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.links-element-strong_text{
+  color: #323232;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
