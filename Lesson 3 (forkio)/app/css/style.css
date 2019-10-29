@@ -538,3 +538,69 @@ input[type="email"] {
   background-color: #f4f4f4;
   padding: 12px 7px 8px 24px;
   margin-top: 36px; }
+
+.foooter-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  column-count: 4;
+  padding-top: 80px;
+  text-align: center; }
+
+.footer-section {
+  width: 24%;
+  display: inline-block;
+  justify-content: space-around;
+  padding: 50px; }
+
+.footer-icon-paragraph {
+  padding-top: 35px;
+  color: #848e97;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px; }
+
+.footer-section-navigation-title, .footer-section-info_title {
+  color: #323232;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.32px; }
+
+.footer-list {
+  list-style-type: none;
+  padding-top: 22px;
+  color: #8d81ac;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.3px;
+  margin-left: -21px; }
+
+.footer-section-number {
+  color: #3f3f3f;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.6px; }
+
+.footer-section-clock {
+  padding-top: 13px; }
+
+.footer-title-city {
+  padding-top: 38px;
+  color: #323232;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.32px; }
+
+.footer-adress {
+  padding-top: 21px;
+  color: #848e97;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.28px; }
