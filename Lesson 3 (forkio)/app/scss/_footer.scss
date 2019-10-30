@@ -1,7 +1,7 @@
 .foooter-wrap{
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   margin: 0 auto;
   column-count: 4;//Определяет количество колонок в многоколоночном тексте.
@@ -9,7 +9,7 @@
   text-align: center;
 }
 .footer-section{
-  width: 24%;
+  width: 23%;
   display: inline-block;
   justify-content: space-around;
   padding: 50px;

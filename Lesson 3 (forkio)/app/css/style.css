@@ -78,6 +78,19 @@ header {
 .logo-icon {
   padding: 5px; }
 
+.header-burger-menu {
+  display: none; }
+
+@media screen and (max-width: 700px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .nav-element {
+    display: none; }
+  .header-burger-menu {
+    display: block; } }
+
 .hero-wrap {
   background-color: #c7b39b;
   background-image: url("../img/hero/bg-img.jpg");
@@ -542,7 +555,7 @@ input[type="email"] {
 .foooter-wrap {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   margin: 0 auto;
   column-count: 4;
@@ -550,7 +563,7 @@ input[type="email"] {
   text-align: center; }
 
 .footer-section {
-  width: 24%;
+  width: 23%;
   display: inline-block;
   justify-content: space-around;
   padding: 50px; }

@@ -31,3 +31,19 @@ header{
 .logo-icon{
   padding: 5px;
 }
+.header-burger-menu{
+  display: none;
+}
+@media screen and (max-width: 700px){
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-element{
+    display: none;
+  }
+  .header-burger-menu{
+    display: block;
+  }
+}
