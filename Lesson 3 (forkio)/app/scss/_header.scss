@@ -3,8 +3,8 @@ header{
   padding: 40px;
   flex-direction: row;
   justify-content: space-between;
-  /*align-items: center;
-  text-align: center;*/
+  align-items: center;
+  text-align: center;
   margin: 0 auto;
   display: flex;
  }
@@ -25,25 +25,99 @@ header{
   border-radius: 27px;
 }
 .logo{
-  display: flex;
-  align-items: center;
-}
-.logo-icon{
-  padding: 5px;
+  //background: url('../img/header/logo-icon.png') no-repeat left;
+  background-size:contain;
+  display: inline-block;
+  max-width: 35%;
+  height: auto;
+  content: url('../img/header/logo-icon.png');
 }
 .header-burger-menu{
   display: none;
 }
-@media screen and (max-width: 700px){
-  header{
-    display: flex;
-    justify-content: space-between;
+@media screen and (max-width: 900px) {
+  header {
+    display: inline-block;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 10%;
     align-items: center;
   }
   .nav-element{
-    display: none;
+    padding-right: 5%;
+    font-size: 20px;
   }
-  .header-burger-menu{
+    .header-button{
+      margin-top: 15px;
+    }
+}
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    padding: 10%;
+    align-items: center;
+  }
+  .nav-wrap{
     display: block;
+    flex-wrap: nowrap;
   }
+  .nav-element{
+    display: block;
+    flex-wrap: nowrap;
+    font-weight: 600;
+  }
+    .header-button{
+      margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    text-align: center;
+  }
+    .nav-element{
+      display: none;
+    }
+    .logo{
+      display: inline-flex;
+      font-size:15%;
+    }
+  img .logo-icon{
+    width: 70%;
+  }
+  button .header-button{
+    padding: 16px 36px;
+    text-align: center;
+    max-width: 77px;
+    height: auto;
+    .header-button {
+      display: inline-flex;
+      text-align: center;
+      margin: 0 auto;
+
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 15px;
+    }
+  }
+    .header-button-element:after{
+      content: "";
+      background: url('../img/header/header-sandwich.png') no-repeat;
+      width: 26px;
+      height: 21px;
+      display: inline-flex;
+      cursor: pointer;
+    }
 }
