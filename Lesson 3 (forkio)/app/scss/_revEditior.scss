@@ -50,3 +50,19 @@
   padding: 3px;
   background-color: #f3f3f3;
 }
+@media screen and (max-width: 900px){
+  .rev-wrap{
+    top: -35px;
+  }
+}
+@media screen and (max-width: 768px){
+  .rev-title {
+    font-size: 44px;
+  }
+}
+@media screen and (max-width: 600px){
+  .rev-title {
+    line-height: 40.45px;
+    margin: 0 auto;
+  }
+}

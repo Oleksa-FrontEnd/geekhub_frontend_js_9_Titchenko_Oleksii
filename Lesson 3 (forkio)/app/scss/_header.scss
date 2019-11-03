@@ -1,29 +1,38 @@
 header{
   max-width: 1170px;
   padding: 40px;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  display: flex;
  }
+  .nav-wrap{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .nav-element{
+    display: flex;
+    flex-wrap: nowrap;
+    color: #635c73;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+  }
 
-.nav-element{
-  color: #635c73;
-  padding-right: 45px;
-}
-.header-button{
-  padding: 12px 36px 13px 36px;
-  color: #fff;
-  background-color: #8d81ac;
-  font-family: Montserrat, sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 15px;
-  border: none;
-  border-radius: 27px;
-}
+  .header-button{
+    padding: 12px 36px 13px 36px;
+    color: #fff;
+    background-color: #8d81ac;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+    border: none;
+    border-radius: 27px;
+  }
 .logo{
   //background: url('../img/header/logo-icon.png') no-repeat left;
   background-size:contain;
@@ -32,9 +41,12 @@ header{
   height: auto;
   content: url('../img/header/logo-icon.png');
 }
-.header-burger-menu{
+//скрываем сэндвич
+#dws-menu,
+header label{
   display: none;
 }
+
 @media screen and (max-width: 900px) {
   header {
     display: inline-block;
@@ -63,7 +75,8 @@ header{
     align-items: center;
   }
   .nav-wrap{
-    display: block;
+    display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
   }
   .nav-element{
@@ -76,48 +89,4 @@ header{
     }
 }
 
-@media screen and (max-width: 480px) {
-  header{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: nowrap;
-    margin: 0 auto;
-    text-align: center;
-  }
-    .nav-element{
-      display: none;
-    }
-    .logo{
-      display: inline-flex;
-      font-size:15%;
-    }
-  img .logo-icon{
-    width: 70%;
-  }
-  button .header-button{
-    padding: 16px 36px;
-    text-align: center;
-    max-width: 77px;
-    height: auto;
-    .header-button {
-      display: inline-flex;
-      text-align: center;
-      margin: 0 auto;
 
-      font-size: 10px;
-      font-weight: 700;
-      line-height: 15px;
-    }
-  }
-    .header-button-element:after{
-      content: "";
-      background: url('../img/header/header-sandwich.png') no-repeat;
-      width: 26px;
-      height: 21px;
-      display: inline-flex;
-      cursor: pointer;
-    }
-}
