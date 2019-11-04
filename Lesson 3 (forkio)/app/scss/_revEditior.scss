@@ -37,6 +37,7 @@
 .rev-icon-wrap{
   display: flex;
   justify-content: center;
+  margin: 0 auto;
   padding-top: 40px;
 }
 .rev-icon-element{
@@ -64,5 +65,12 @@
   .rev-title {
     line-height: 40.45px;
     margin: 0 auto;
+  }
+}
+@media screen and (max-width: 480px){
+  .rev-icon-element {
+    margin: 2px;
+    font-size: 13px;
+
   }
 }
