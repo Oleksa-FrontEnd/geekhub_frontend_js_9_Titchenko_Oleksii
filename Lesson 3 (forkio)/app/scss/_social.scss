@@ -1,6 +1,19 @@
 .social-wrap{
   padding-top: 100px;
   text-align: center;
+  position: relative;
+}
+.social-wrap-slider:before{
+  content: url("../img/social/arrow_L.png");
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+.social-wrap-slider:after{
+  content: url("../img/social/arrow_R.png");
+  position: absolute;
+  top: 40%;
+  right: 5%;
 }
 .social-mens{
   display: flex;
@@ -33,7 +46,7 @@
   padding-left: 27px;
 }
 .social-text{
-  max-width: 720px;
+  max-width: 80% ;
   margin: 0 auto;
   padding-top: 50px;
   padding-bottom: 25px;
@@ -57,7 +70,7 @@
   padding-top: 115px;
   justify-content: center;
 }
-.button-social-github{
+.button-social-github, button{
   background-color: #f3f3f3;
   width: 240px;
   padding: 16px auto;
@@ -67,6 +80,7 @@
   line-height: 32px;
   text-align: center;
   margin: 40px;
+  border: none;
 }
 .button-social-twitter{
   background-color: #26a6d1;
@@ -103,5 +117,15 @@
   .social-button-wrap {
     display: flex;
     flex-direction: column;
+    padding-top: 55px;
+  }
+  .button-social-github,
+  .button-social-twitter,
+  .button-social-facebook{
+    margin: 0;
+  }
+  .button-social-followers{
+    padding-top: 15px;
+    padding-bottom: 25px;
   }
 }
