@@ -32,3 +32,16 @@ letter-spacing: -1.2px;
     line-height: 22px;
   }
 }
+@media screen and (max-width: 740px) {
+  .portfolio-wrapper{
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    width: 100%;
+    padding: 3%;
+  }
+  .portfolio-img_position_media{
+    padding-top: 3%;
+    padding-left: 25%;
+    width: 80%;
+  }
+}

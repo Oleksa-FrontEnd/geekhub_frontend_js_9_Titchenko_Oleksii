@@ -9,8 +9,6 @@
   display: inline-block;
   width: 30%;
   padding-right: 25px;
-  /*justify-content: center;
-  align-items: center;*/
 }
 .snippets-element__title{
   color: #465065;
@@ -20,11 +18,16 @@
   line-height: 26px;
   text-transform: uppercase;
 }
+.snippets-element__title_pr{
+  padding-right: 50%;
+}
 .snippets-element__link{
   display: flex;
   justify-content: end;
   padding-top: 25px;
   color: #f3686d;
+  text-transform: uppercase;
+  font-weight: 700;
 
   &::after {
     content: url("../img/snippets/arrow.png");
@@ -37,4 +40,27 @@
 .snippets-element__link_position{
   display: block;
   text-align: end;
+}
+@media screen and (max-width: 940px) {
+  .snippets-wrap{
+    padding: 2%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .snippets-element {
+    width: 50%;
+    padding: 2%;
+  }
+  .snippets-element__link {
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .snippets-element {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .snippets-element__title_pr{
+    padding-right: 80%;
+  }
 }
