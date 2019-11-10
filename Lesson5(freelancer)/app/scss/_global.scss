@@ -6,6 +6,11 @@
   margin: 0 auto;
   padding-top: 100px;
 }
+@media screen and (max-width: 600px) {
+  .section-wrap{
+    padding-top: 3%;
+  }
+}
 li{
   list-style-type: none;
 }

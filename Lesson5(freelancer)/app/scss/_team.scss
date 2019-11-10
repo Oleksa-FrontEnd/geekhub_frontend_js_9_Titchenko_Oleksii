@@ -7,7 +7,7 @@
 .team-element{
   display: flex;
   padding: 5px;
-  max-width: 32%;
+  width: 300px;
 }
 .team-element__foto{
   padding-right: 4%;
@@ -39,4 +39,38 @@
 .element__link_right{
   float: right;
   padding-top: 20px;
+}
+@media screen and (max-width: 940px) {
+  .team-wrapper{
+    //text-align: left;
+    padding-top: 0;
+    padding-left: 5%;
+  }
+  .team-element{
+    padding-top: 2%;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .snippets-element__link_position{
+    padding-right: 5%;
+  }
+}
+@media screen and (max-width: 740px) {
+  .team-element-wrap{
+    padding-top: 0;
+  }
+  .team-element{
+    width: 90%;
+    padding-left: 10%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .team-wrapper {
+    padding-top: 2%;
+  }
+  .team-element{
+    padding: 0;
+    padding-top: 2%;
+    }
+
 }

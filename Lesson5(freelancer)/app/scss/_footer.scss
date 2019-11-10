@@ -9,3 +9,20 @@ footer{
 span .footer-text{
   right: 0;
 }
+@media screen and (max-width: 910px) {
+  footer{
+    padding: 5%;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+  }
+  .footer-icon_position{
+    padding: 5px;
+  }
+}

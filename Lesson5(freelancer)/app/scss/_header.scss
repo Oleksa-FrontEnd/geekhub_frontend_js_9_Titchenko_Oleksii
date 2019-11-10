@@ -23,7 +23,6 @@ header{
   color: #ffffff;
 }
 .header-nav-button{
-  //display: block;
   font-family: Domine, sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -44,7 +43,14 @@ header{
   //display: block;
   color: #fa5c65;;
 }
-
+@media screen and (max-width: 910px){
+  .header-nav__item{
+    font-size: 20px;
+  }
+  .header-nav-button_position{
+    padding-left: 5%;
+  }
+}
 @media screen and (max-width: 600px){
   header{
     margin: 0 auto;
@@ -53,6 +59,9 @@ header{
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+  .header-nav-button_position{
+    padding-left: 0;
   }
   .header-nav-list{
     margin: 0 auto;
