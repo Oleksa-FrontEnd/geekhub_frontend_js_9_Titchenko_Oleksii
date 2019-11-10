@@ -1,0 +1,297 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1.2; }
+
+ol {
+  padding-left: 1.4em;
+  list-style: decimal; }
+
+ul {
+  padding-left: 1.4em;
+  list-style: square; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+* {
+  font-family: Montserrat, sans-serif; }
+
+.section-wrap {
+  max-width: 910px;
+  margin: 0 auto;
+  padding-top: 100px; }
+
+li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+.element_paragraph {
+  color: #9aa0ab;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px; }
+
+.tochka {
+  font-size: 50px;
+  color: red; }
+
+.top-section__title {
+  padding-top: 110px;
+  max-width: 410px; }
+
+.top-section_title_pr {
+  padding-right: 180px; }
+
+.top-section__text {
+  color: #314a5b;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40.35px;
+  padding-top: 26px;
+  padding-bottom: 30px; }
+
+.top-section__button {
+  background-color: #fa5c65;
+  color: #fff;
+  padding: 10px 42px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 48.38px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 100px; }
+
+@media screen and (max-width: 940px) {
+  .top-section {
+    padding-left: 5%;
+    padding-top: 60px; } }
+
+@media screen and (max-width: 480px) {
+  .top-section {
+    padding-left: 5%;
+    padding-top: 0; }
+  .top-section__text {
+    color: #fff; } }
+
+header {
+  background: url("../img/top/bg_top.png") no-repeat center;
+  background-size: cover;
+  height: 100%; }
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 910px; }
+
+.header-nav-list {
+  display: inline-flex;
+  font-family: Montserrat,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 85px;
+  text-transform: uppercase; }
+
+.button-link {
+  background-color: #fa5c65;
+  border: none;
+  color: #ffffff; }
+
+.header-nav-button {
+  font-family: Domine, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 63.95px;
+  letter-spacing: 0.3px; }
+
+.header-nav__item {
+  padding-right: 10px;
+  color: #263742;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 85px;
+  text-transform: uppercase;
+  display: block; }
+
+.fa {
+  color: #fa5c65; }
+
+@media screen and (max-width: 600px) {
+  header {
+    margin: 0 auto; }
+  .header-wrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+  .header-nav-list {
+    margin: 0 auto; }
+  .header-nav__item {
+    font-size: 20px; } }
+
+@media screen and (max-width: 480px) {
+  .header-nav__item {
+    font-size: 17px; } }
+
+@media screen and (max-width: 400px) {
+  .header-nav-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 100%; }
+  .header-nav__item {
+    font-size: 24px; } }
+
+.snippets-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 80px; }
+
+.snippets-element {
+  display: inline-block;
+  width: 30%;
+  padding-right: 25px;
+  /*justify-content: center;
+  align-items: center;*/ }
+
+.snippets-element__title {
+  color: #465065;
+  font-family: Montserrat, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase; }
+
+.snippets-element__link {
+  display: flex;
+  justify-content: end;
+  padding-top: 25px;
+  color: #f3686d; }
+  .snippets-element__link::after {
+    content: url("../img/snippets/arrow.png");
+    width: 19px;
+    height: 9px;
+    color: #f3686d;
+    padding-left: 5px; }
+
+.snippets-element__link_position {
+  display: block;
+  text-align: end; }
+
+.portfolio-wrapper {
+  display: flex; }
+
+.portfolio-element__title {
+  color: #314a5b;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  text-transform: uppercase;
+  /* Text style for "p, ortfoli" */
+  letter-spacing: -1.2px; }
+
+.portfolio-element__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px; }
+
+.portfolio-element__paragraph {
+  padding-top: 25px;
+  color: #9aa0ab;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px; }
+  .portfolio-element__paragraph_br {
+    padding-top: 25px;
+    color: #9aa0ab;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px; }
+
+.team-element-wrap {
+  display: flex;
+  padding-top: 50px;
+  flex-wrap: wrap;
+  margin: 0 auto; }
+
+.team-element {
+  display: flex;
+  padding: 5px;
+  max-width: 32%; }
+
+.team-element__foto {
+  padding-right: 4%; }
+
+.team-element__text_wrap {
+  display: flex;
+  flex-direction: column; }
+
+.team-element__title {
+  color: #314a5b;
+  font-family: Montserrat,sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 53.86px;
+  text-transform: uppercase;
+  /* Text style for "J, oey" */
+  letter-spacing: -0.33px; }
+
+.team-element__status {
+  color: #f0454c;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px; }
+
+.team-element__text {
+  padding-top: 10px; }
+
+.element__link_right {
+  float: right;
+  padding-top: 20px; }
+
+footer {
+  display: flex;
+  justify-content: space-between; }
+
+.footer-icon_position {
+  padding-right: 22px;
+  color: #b9c0c6; }
+
+span .footer-text {
+  right: 0; }

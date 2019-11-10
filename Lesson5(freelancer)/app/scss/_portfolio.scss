@@ -1,0 +1,34 @@
+.portfolio-wrapper{
+  display: flex;
+}
+.portfolio-element__title{
+color: #314a5b;
+font-size: 40px;
+font-weight: 700;
+line-height: 46px;
+text-transform: uppercase;
+/* Text style for "p, ortfoli" */
+letter-spacing: -1.2px;
+}
+.portfolio-element__text{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.portfolio-element__paragraph{
+  padding-top: 25px;
+  color: #9aa0ab;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  &_br{
+    padding-top: 25px;
+    color: #9aa0ab;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+}

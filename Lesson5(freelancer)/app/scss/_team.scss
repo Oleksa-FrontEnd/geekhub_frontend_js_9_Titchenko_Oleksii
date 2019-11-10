@@ -1,0 +1,42 @@
+.team-element-wrap{
+  display: flex;
+  padding-top: 50px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.team-element{
+  display: flex;
+  padding: 5px;
+  max-width: 32%;
+}
+.team-element__foto{
+  padding-right: 4%;
+}
+.team-element__text_wrap{
+  display: flex;
+  flex-direction: column;
+}
+.team-element__title {
+  color: #314a5b;
+  font-family: Montserrat,sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 53.86px;
+  text-transform: uppercase;
+  /* Text style for "J, oey" */
+  letter-spacing: -0.33px;
+}
+.team-element__status{
+  color: #f0454c;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.team-element__text{
+  padding-top: 10px;
+}
+.element__link_right{
+  float: right;
+  padding-top: 20px;
+}
