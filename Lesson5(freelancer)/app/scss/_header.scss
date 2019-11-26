@@ -17,21 +17,30 @@ header{
   line-height: 85px;
   text-transform: uppercase;
 }
-.button-link{
+.header__home-link{
   background-color: #fa5c65;
   border: none;
   color: #ffffff;
 }
-.header-nav-button{
+.header__home-link:hover{
+  background-color: #fa5c45;
+}
+.header-nav__link{
   font-family: Domine, sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 63.95px;
   letter-spacing: 0.3px;
+  padding: 40px 14px 14px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.header_point{
+  color: #314a5b;
 }
 .header-nav__item{
   padding-right: 10px;
-  color: #263742;
+  color: #4a585f;
   font-family: Montserrat, sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -40,8 +49,7 @@ header{
   display: block;
 }
 .fa{
-  //display: block;
-  color: #fa5c65;;
+  color: #fa5c65;
 }
 @media screen and (max-width: 910px){
   .header-nav__item{

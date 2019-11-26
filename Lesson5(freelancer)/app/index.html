@@ -13,14 +13,40 @@
     <title>Freelancer</title>
 </head>
 <body>
+
+<div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+        <span></span>
+    </label>
+    <ul class="menu__box">
+        <li><a class="menu__item" href="#">About</a></li>
+        <li><a class="menu__item" href="#">Work</a></li>
+        <li><a class="menu__item" href="#">Portfolio</a></li>
+        <li><a class="menu__item" href="#">Contact</a></li>
+        <li><a class="menu__item" href="#">Контакты</a></li>
+        <li class="">
+            <a href="https://twitter.com/">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li class="header-nav__item header-nav__icon">
+            <a href="https://https://www.facebook.com//">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
 <header>
     <div class="header-wrap">
        <div class="header-nav-button_position">
-            <button class="header-nav-button button-link">
-                <a class="header-nav__button button-link" href="index.html" name="home">
-                    Freelancer
+            <!--<button class="header-nav-button button-link">-->
+                <a class="header-nav__link header__home-link" href="index.html" name="home">
+                    Freelancer<span class="header_point">.</span>
                 </a>
-            </button>
+            <!--</button>-->
        </div>
         <ul class="header-nav-list">
             <li><a href="#" class="header-nav__item" name="about">About</a></li>
@@ -43,37 +69,35 @@
         <h3 class="top-section__title portfolio-element__title">
             <span class="top-section_title_pr">intelligence</span>
             is nothing without
-            ambition.
+            ambition<span class="point-color">.</span>
         </h3>
         <p class="top-section__text">
             We’re small but impressive creative agency.
         </p>
-        <button class="top-section__button">read mode</button>
+        <button class="top-section__button font-red">read mode</button>
     </div>
 </header>
 <main>
     <section class="top-wrap">
-        <!--<div class="top-wrap__img_container">
-            <img src="img/top/bg_top.png" class="top-img" alt="">
-        </div>-->
+
     </section>
 </main>
     <!--SNIPPETS-->
     <section class="snippets-wrap section-wrap">
         <div class="snippets-element">
-        <h5 class="snippets-element__title">
-            <span class="snippets-element__title_pr">Peace</span>
-            of Mind<span>.</span>
-        </h5>
-            <p class="snippets-element__text element_paragraph">
-                You’re safe with us. The privacy and security of your financial information is our top priority.
-            </p>
-            <a href="#" class="snippets-element__link">more</a>
+            <h5 class="snippets-element__title">
+                <span class="snippets-element__title_pr">Peace</span>
+                of Mind<span class=“point-color”>.</span>
+            </h5>
+                <p class="snippets-element__text element_paragraph">
+                    You’re safe with us. The privacy and security of your financial information is our top priority.
+                </p>
+                <a href="#" class="snippets-element__link font-red">more</a>
         </div>
         <div class="snippets-element">
             <h5 class="snippets-element__title">
                 <span class="snippets-element__title_pr">
-                    Free<span>.</span>
+                    Free<span class=“point-color”>.</span>
                 </span>
                 Actually free
             </h5>
@@ -85,12 +109,12 @@
         <div class="snippets-element">
             <h5 class="snippets-element__title">
                 Simple
-                payments<span>.</span>
+                payments<span class=“point-color”>.</span>
             </h5>
             <p class="snippets-element__text element_paragraph">
                 The same debit card you use to buy coffee lets deposit money straight to your bank account.
             </p>
-            <a href="#" class="snippets-element__link">more</a>
+            <a href="#" class="snippets-element__link font-red">more</a>
         </div>
     </section>
 <!--PORTFOLIO-->
@@ -101,7 +125,7 @@
       </div>
       <div class="portfolio-element-wrap">
           <h3 class="portfolio-element__title">
-              Portfolio<span>.</span>
+              Portfolio<span class=“point-color”>.</span>
           </h3>
           <span class="portfolio-element__text">
               We are small, but strong team
@@ -112,13 +136,13 @@
 
               <p class="portfolio-element__paragraph_br">The same debit card you use to buy coffee lets deposit money straight to your bank account.</p>
           </p>
-          <a href="#" class="snippets-element__link">more</a>
+          <a href="#" class="snippets-element__link ">more</a>
       </div>
   </section>
   <!--OUR TEAM-->
     <section class="team-wrapper section-wrap">
             <h3 class="portfolio-element__title">
-                our team <span>.</span>
+                our team <span class=“point-color”>.</span>
             </h3>
             <span class="element_paragraph">
                 They are big but still friendly.
@@ -172,7 +196,7 @@
         </div>
     </section>
 </main>
-<footer class="section-wrap">
+<footer class="footer-decor section-wrap">
     <div>
         <a href="https://twitter.com/">
             <i class="fa fa-twitter footer-icon_position" aria-hidden="true"></i>

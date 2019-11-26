@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -62,9 +63,10 @@ a {
   font-weight: 400;
   line-height: 22px; }
 
-.tochka {
-  font-size: 50px;
-  color: red; }
+.point-color {
+  display: inline-block;
+  font-family: serif;
+  color: #fa5c65; }
 
 .top-section__title {
   padding-top: 110px;
@@ -126,21 +128,30 @@ header {
   line-height: 85px;
   text-transform: uppercase; }
 
-.button-link {
+.header__home-link {
   background-color: #fa5c65;
   border: none;
   color: #ffffff; }
 
-.header-nav-button {
+.header__home-link:hover {
+  background-color: #fa5c45; }
+
+.header-nav__link {
   font-family: Domine, sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 63.95px;
-  letter-spacing: 0.3px; }
+  letter-spacing: 0.3px;
+  padding: 40px 14px 14px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; }
+
+.header_point {
+  color: #314a5b; }
 
 .header-nav__item {
   padding-right: 10px;
-  color: #263742;
+  color: #4a585f;
   font-family: Montserrat, sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -259,7 +270,8 @@ header {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 20px; }
+  line-height: 20px;
+  color: #314a5b; }
 
 .portfolio-element__paragraph {
   padding-top: 25px;
@@ -286,6 +298,9 @@ header {
     padding-top: 3%;
     padding-left: 25%;
     width: 80%; } }
+
+.team-wrapper {
+  padding-bottom: 40px; }
 
 .team-element-wrap {
   display: flex;
@@ -356,7 +371,12 @@ header {
 
 footer {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-bottom: 40px; }
+
+.footer-decor {
+  padding-top: 33px;
+  border-top: 1px solid #e6eaed; }
 
 .footer-icon_position {
   padding-right: 22px;
@@ -378,3 +398,68 @@ span .footer-text {
     padding: 0; }
   .footer-icon_position {
     padding: 5px; } }
+
+/* скрываем чекбокс */
+#menu__toggle {
+  opacity: 0; }
+
+/* стилизуем кнопку */
+.menu__btn {
+  display: flex;
+  /* используем flex для центрирования содержимого */
+  align-items: center;
+  /* центрируем содержимое кнопки */
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1; }
+
+/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: mediumvioletred; }
+
+.menu__btn > span::before {
+  content: '';
+  top: -8px; }
+
+.menu__btn > span::after {
+  content: '';
+  top: 8px; }
+
+/* контейнер меню */
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2); }
+
+/* элементы меню */
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none; }
+
+.menu__item:hover {
+  background-color: #CFD8DC; }
