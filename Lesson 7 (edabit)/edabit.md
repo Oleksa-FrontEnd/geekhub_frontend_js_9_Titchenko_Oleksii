@@ -20,4 +20,6 @@
         
             Solution:https://www.dropbox.com/h?preview=Sceenshot4_Returning_Valid_Prices.png
             
-         5. Challenge 5 ()   
+         5. Challenge 5 ()  
+         
+         Solution: 
