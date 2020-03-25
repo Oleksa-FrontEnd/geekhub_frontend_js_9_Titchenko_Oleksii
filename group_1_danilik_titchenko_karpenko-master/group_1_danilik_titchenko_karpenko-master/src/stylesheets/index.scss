@@ -1,0 +1,25 @@
+/* Fonts */
+@font-face {
+    font-family: "Pitcher Regular";
+    src: url("../assets/fonts/pitcher/PitcherRegular.ttf");
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/* Variables */
+@import "./variables.scss";
+@import "./reset.scss";
+
+/* Universal templates */
+@import "./universal_templates/button.scss";
+@import "./universal_templates/card.scss";
+@import "./universal_templates/text.scss";
+@import "./universal_templates/block.scss";
+@import "./universal_templates/preloader.scss";
+@import "./universal_templates/carousel.scss";
+@import "./universal_templates/general.scss";
+
+/* Media */
+@import "./media/576px/576.scss";
+@import "./media/768px/768.scss";
+@import "./media/992px/992.scss";
+@import "./media/1200px/1200.scss";

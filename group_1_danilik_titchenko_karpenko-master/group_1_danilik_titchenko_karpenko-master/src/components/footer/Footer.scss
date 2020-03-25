@@ -1,0 +1,16 @@
+.footer {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 45px 0;
+}
+
+.footer-copyright {
+
+    &__text {
+        color: #9b9b9b;
+        font-family: "Open Sans";
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,14 @@
+.carousel {
+	// Indicators
+	.control-dots {
+		position: absolute;
+		bottom: 0;
+		margin: 10px 0;
+		text-align: center;
+		.dot.selected {
+			opacity: 1;
+			background: $bg-pink;
+			filter: alpha(opacity=100);
+		}
+	}
+}

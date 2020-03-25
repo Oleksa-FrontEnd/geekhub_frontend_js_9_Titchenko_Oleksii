@@ -1,0 +1,33 @@
+.block {
+	&__element {
+		$margin: 160px;
+		&_indent {
+			&:first-child {
+				padding: $margin 0 0 0;
+			}
+			&:last-child {
+				padding: 0 0 0 0;
+			}
+			// default
+			padding: $margin 0 $margin 0;
+			&-dual {
+				padding: $margin 0;
+			}
+			&-bottom{
+				padding: 0 0 $margin 0;
+			}
+		}
+	}
+	&__wrapper {
+		width: 100%;
+		margin: auto;
+	}
+	&__header_wrapper{
+		padding: 0 $header-body-indent;
+		background: $bg-blue;
+	}
+	&__body{
+		padding: 0 $header-body-indent;
+		background: $bg-gray;
+	}
+}

@@ -1,0 +1,10 @@
+.card {
+	&__grid-wrapper {
+		&_two {
+            grid-template-columns: 1fr;
+		}
+		&_four {
+            grid-template-columns: 1fr;
+		}
+	}
+}
